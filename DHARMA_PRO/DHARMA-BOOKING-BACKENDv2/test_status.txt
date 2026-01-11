@@ -1,0 +1,1 @@
+ERROR: When initializing mapper Mapper[User(users)], expression 'Booking' failed to locate a name ('Booking'). If this is a class name, consider adding this relationship() to the <class 'database.models.user.user_model.User'> class after both dependent classes have been defined.

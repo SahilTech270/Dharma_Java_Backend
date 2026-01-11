@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: booking
+    restart: always
+    ports:
+      - "14000:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "0000"
+      POSTGRES_DB: booking
+    volumes:
+      - dharma-booking-backendv2_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  dharma-booking-backendv2_postgres_data:

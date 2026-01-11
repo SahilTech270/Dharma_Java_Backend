@@ -1,0 +1,4 @@
+Found box: x=208, y=273, w=608, h=588
+Center: (512, 567)
+Recommended QR Size: 568
+Recommended QR Position (Top-Left): (218, 283)

@@ -1,0 +1,5 @@
+Testing with User: 1 and Temple: 1
+Sending POST to http://127.0.0.1:8000/bookings/ with payload: {'bookingType': 'ONLINE', 'special': False, 'bookingDate': '2025-12-07', 'templeId': 1, 'userId': 1, 'slotId': None}
+Status Code: 201
+Response Body: {"bookingId":1,"bookingType":"ONLINE","special":false,"bookingDate":"2025-12-07","templeId":1,"userId":1,"slotId":null}
+SUCCESS: Booking created successfully. Notification logic should have triggered.
